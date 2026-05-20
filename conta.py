@@ -15,6 +15,8 @@ class Conta():
       print(f"Deposito de R${valor:.2f} realizado.")
 
   def rendimento(self, valor):
+    rendimento = self.saldo * 0,1
+    return rendimento
     
     
     
